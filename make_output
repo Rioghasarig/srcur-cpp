@@ -1,0 +1,76 @@
+hbio.c: In function 'readHB_info':
+hbio.c:268:18: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+     *(*Type+3) = (char) NULL;
+                  ^
+hbio.c: In function 'readHB_header':
+hbio.c:310:16: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+     *(Key+8) = (char) NULL;
+                ^
+hbio.c:311:19: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+     *(Title+72) = (char) NULL;
+                   ^
+hbio.c:346:20: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+     *(Ptrfmt+16) = (char) NULL;
+                    ^
+hbio.c:347:20: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+     *(Indfmt+16) = (char) NULL;
+                    ^
+hbio.c:348:20: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+     *(Valfmt+20) = (char) NULL;
+                    ^
+hbio.c:349:20: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+     *(Rhsfmt+20) = (char) NULL;
+                    ^
+hbio.c: In function 'readHB_mat_double':
+hbio.c:423:31: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+     *(ThisElement+Ptrwidth) = (char) NULL;
+                               ^
+hbio.c:446:31: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+     *(ThisElement+Indwidth) = (char) NULL;
+                               ^
+hbio.c:475:31: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+     *(ThisElement+Valwidth) = (char) NULL;
+                               ^
+hbio.c: In function 'readHB_aux_double':
+hbio.c:663:29: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+   *(ThisElement+Rhswidth) = (char) NULL;
+                             ^
+hbio.c: In function 'readHB_mat_char':
+hbio.c:977:31: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+     *(ThisElement+Ptrwidth) = (char) NULL;
+                               ^
+hbio.c:1000:31: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+     *(ThisElement+Indwidth) = (char) NULL;
+                               ^
+hbio.c:1028:31: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+     *(ThisElement+Valwidth) = (char) NULL;
+                               ^
+hbio.c: In function 'ParseRfmt':
+hbio.c:1542:20: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+        *(tmp2+1) = (int) NULL;
+                    ^
+hbio.c:1552:32: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+         while ( *(tmp2+len) != (int) NULL ) {
+                                ^
+hbio.c:1556:32: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+         *(strchr(fmt,')')+1) = (int) NULL;
+                                ^
+hbio.c: In function 'substr':
+hbio.c:1590:17: warning: cast from pointer to integer of different size [-Wpointer-to-int-cast]
+     SubS[len] = (char) NULL;
+                 ^
+In file included from lusol.c:639:0:
+lusol1.c: In function 'LU1FAC':
+lusol1.c:3300:34: warning: variable 'TSP' set but not used [-Wunused-but-set-variable]
+   MYBOOL  KEEPLU, TCP, TPP, TRP, TSP;
+                                  ^~~
+lusol1.c:3300:29: warning: variable 'TRP' set but not used [-Wunused-but-set-variable]
+   MYBOOL  KEEPLU, TCP, TPP, TRP, TSP;
+                             ^~~
+lusol1.c:3300:19: warning: variable 'TCP' set but not used [-Wunused-but-set-variable]
+   MYBOOL  KEEPLU, TCP, TPP, TRP, TSP;
+                   ^~~
+lusolmain.c: In function 'main':
+lusolmain.c:71:16: warning: variable 'nelem' set but not used [-Wunused-but-set-variable]
+        n     , nelem , nnzero;
+                ^~~~~
